@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Color Puzzle Game | Senryo</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+
+    <body>
+        <h1 class = "gameTitle">Color Puzzle Game</h1>
+        <h3>3 X 3</h3>
+        <h1 class = "chronometer">chrono</h4>
+        <table>
+            <tr>
+                <td class = "E1" id = "E1"><button  onclick = "move('E1', [1, 1])">E1</button></td>
+                <td class = "E2" id = "E2"><button  onclick = "move('E2', [1, 2])">E2</button></td>
+                <td class = "E3" id = "E3"><button onclick = "move('E3', [1, 3])">E3</button></td>
+            </tr>
+            <tr>
+                <td class = "E4" id = "E4"><button  onclick = "move('E4', [2, 1])">E4</button></td>
+                <td class = "E5" id = "E5"><button onclick = "move('E5', [2, 2])">E5</button></td>
+                <td class = "E6" id = "E6"><button  onclick = "move('E6', [2, 3])">E6</button></td>
+            </tr>
+            <tr>
+                <td class = "E7" id = "E7"><button onclick = "move('E7', [3, 1])">E7</button></td>
+                <td class = "E8" id = "E8"><button onclick = "move('E8', [3, 2])">E8</button></td>
+                <td class = "E9" id = "E9"><button onclick = "move('E9', [3, 3])">E9</button></td>
+            </tr>
+        </table>
+        <div>
+            <button>start</button>
+            <button>reset</button>
+        </div>
+        <h4>best chrono :</h4>
+        <h4>win no :</h4>
+
+        <script src = "script.js"></script>
+    </body>
+
+</html>

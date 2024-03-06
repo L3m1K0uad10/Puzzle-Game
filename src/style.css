@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    border: 1px solid black;
+    padding: 30px 60px 30px 60px;
+}
+
+/* ------------------------------------- */
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.chronometer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* -------------------------------------- */
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    border: 5px solid black;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.E2, 
+.E4,
+.E5,
+.E6,
+.E8 {
+    background-color: rgb(48, 129, 199);
+}
+
+.E1,
+.E3,
+.E7 {
+    background-color: red;
+}
+
+table button {
+    height: 100px;
+    width: 100px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* --------------------------------------- */
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 0px;
+}
+
+div button {
+    padding: 10px 40px;
+    cursor: pointer;
+}
