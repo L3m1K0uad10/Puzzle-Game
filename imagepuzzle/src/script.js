@@ -89,6 +89,9 @@ console.log(emptyGridCellNo); */
 //
 
 function move(cellNo, cellCoord) {
+    findEmptyGrid();
+    findAvailablePuzzlePieces();
+
     let emptyGridElement = document.getElementById(emptyGridCellNo);
     let cellElement = document.getElementById(cellNo);
 

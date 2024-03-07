@@ -129,3 +129,13 @@ div button {
     padding: 10px 40px;
     cursor: pointer;
 }
+
+button {
+    background-color: #37a2cc;
+    border-radius: .5rem;
+    border: none;
+}
+
+button:hover {
+    background-color: #37a2cc94;
+}
